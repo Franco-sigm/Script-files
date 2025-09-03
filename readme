@@ -1,1 +1,18 @@
-Script para la creación automática de carpetas y reubicación de descargas de contenidos de la carrera tecnico en analisis y programación IACC.
+📁 Script de Organización de Carpetas Académicas
+Este script automatiza la creación de carpetas y la reubicación de archivos descargados desde Moodle, específicamente para la carrera Técnico en Análisis y Programación en IACC.
+
+🚀 Funcionalidad
+Crea carpetas por ramo y semana según estructura académica.
+
+Reubica archivos descargados (PDFs, DOCs, etc.) desde la carpeta de descargas a su carpeta correspondiente.
+
+Detecta nombres genéricos y los clasifica según patrones definidos.
+
+Compatible con rutas locales y sincronización en la nube (OneDrive).
+
+🛠️ Requisitos
+Python 3.10+
+
+Sistema operativo Windows
+
+Librerías: os, shutil, datetime, re (todas estándar)
